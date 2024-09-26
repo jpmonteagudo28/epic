@@ -1,0 +1,18 @@
+Package: epic
+Title: Epidemiology Computational tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Monteagudo", "JP", 
+    email = "jpmonteagudo2014@gmail.com", 
+    role = c("aut", "cre","crh"),
+    comment = c(ORCID = "0009-0003-6465-6658"))
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    boot
