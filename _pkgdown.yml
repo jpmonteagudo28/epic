@@ -1,0 +1,23 @@
+url: https://epic.jpmonteagudo.com
+
+
+template:
+  bootstrap: 5
+  bslib:
+    bg: "#ffffff"
+    fg: "#cb562c"
+    primary: "#373b40"
+    base_font: {google: "Fira Sans Condensed"}
+    heading_font: {google: "Montserrat"}
+    code_font: {google: "Fira Code"}
+  theme: a11y-light
+
+  navbar:
+    bg: primary
+    structure:
+      left: [intro, get started,reference, news]
+      right: [search,github]
+  footer:
+    structure:
+      left: developed_by
+      right: built_with
