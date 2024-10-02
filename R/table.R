@@ -3,10 +3,12 @@
 #'
 #' @details
 #' A wrapper around `table()` that allows the user to specify
-#' a data frame and select columns to display as a table.
+#' a data frame, matrix or list and select columns to display as a table.
 #'
-#' @param data a non-empty data frame with either categorical or factor variables
+#' @param data a non-empty data frame, matrix or list with either categorical or factor variables
 #' @param ... additional arguments to be passed to function
+#' @param to_data_frame optional argument to convert matrices to data frames prior to
+#'        creating the contingency table.
 #'
 #' @examples
 #' df <- data.frame(
@@ -22,6 +24,7 @@ make_nway_table <- function(data, ...){
 
 }
 make_nway_table.data.frame <- function(data, ...) {
+
   # Extract column names passed in `...`
   variables <- unlist(list(...))
 
@@ -40,9 +43,9 @@ make_nway_table.data.frame <- function(data, ...) {
 # Method for matrices
 make_nway_table.matrix <- function(data,
                                    ...,
-                                   as_data_frame = FALSE) {
+                                   to_data_frame = FALSE) {
 
-  if (as_data_frame) {
+  if (to_data_frame) {
     # Convert the matrix to a data frame
     data <- as.data.frame(data)
   }
