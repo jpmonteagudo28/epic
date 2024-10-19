@@ -6,7 +6,8 @@ Authors@R:
     email = "jpmonteagudo2014@gmail.com", 
     role = c("aut", "cre","crh"),
     comment = c(ORCID = "0009-0003-6465-6658"))
-Description: What the package does (one paragraph).
+Description: Epidemiology Computational tools allows students to access easy-to-use
+and convenient functions used in their Epidmiology, Biostatistics and Research Methods courses.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
