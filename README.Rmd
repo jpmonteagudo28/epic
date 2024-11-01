@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/epic)](https://CRAN.R-project.org/package=epic)
+[![stability-wip](https://img.shields.io/badge/stability-wip-lightgrey.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#work-in-progress)
 <!-- badges: end -->
 
 The goal of epic is to provide a one-stop solution for Biostatistics and Epidemiology students going through their statistics courses. Epic contains functions for most of the concepts covered in these introductory courses, allowing the users to put time into solving a problem rather than coming up with syntactically and mathematically sound code to tackle their homework or projects. 
